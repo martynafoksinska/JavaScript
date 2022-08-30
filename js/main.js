@@ -1,3 +1,5 @@
+// Działania arytmetyczne
+
 const add = 2 + 3
 console.log(`Wynik dodawania to: ${add}`)
 
@@ -13,6 +15,8 @@ console.log(`Wynik dzielenia: ${divide}`)
 const modulo = 13 % 2
 console.log(`Wynik modulo: ${modulo}`)
 
+// Tekst w konsoli
+
 const name = 'Martyna'
 let age
 const food = 'hamburger'
@@ -21,7 +25,10 @@ age = 26
 
 console.log(`Cześć, mam na imię ${name}, mam ${age} lat i moje ulubione jedzienie to ${food}.`)
 
-const score = 15
+// Zadania
+
+const score = 15 % 2
+console.log(score)
 
 if (score % 2 == 0) {
 	console.log('Liczba parzysta')
@@ -54,4 +61,47 @@ if (passLength > 10) {
 	console.log(`Masz dobre hasło`)
 } else {
 	console.log(`Masz słabe hasło...`)
+}
+
+// Pętla for
+
+const fruits = ['apple', 'banana', 'orange', 'lemon', 'plum', 123, true, false]
+
+for (let i = 0; i < fruits.length; i++) {
+	console.log(fruits[i])
+}
+
+// Funkcje
+
+function addNumbers(x, y) {
+	console.log(x + y)
+}
+
+addNumbers(5, 8)
+
+function test() {
+	console.log('Cześć!')
+}
+
+test()
+
+// Zadanie tablice i funkcje
+
+const numbers = [1, 2, 3, 4, 5, 6]
+
+for (let i = 0; i < numbers.length; i++) {
+	console.log(numbers[i])
+}
+
+function exercise(arg1, arg2, arg3) {
+	console.log(arg1 + arg2 * arg3)
+}
+
+exercise(1, 2, 3)
+
+
+if (numbers.length > 5) {
+	console.log('TRUE')
+} else {
+	console.log('FALSE')
 }
