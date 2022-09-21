@@ -29,4 +29,35 @@ button {
 
 button:hover {
   background-color: aquamarine;
+}/*# sourceMappingURL=style.css.map */tps://cdn.pixabay.com/photo/2014/05/03/00/56/summerfield-336672_960_720.jpg");
+  background-position: center;
+}
+
+.show {
+  height: 300px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+section button {
+  margin: 0 30px;
+  padding: 10px 30px;
+  background: none;
+  border-radius: 5px;
+  border: 2px solid #00cfff;
+  color: #00cfff;
+  box-shadow: 3px 3px 10px #00cfff;
+  font-size: 36px;
+  transition: color 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+section button:hover {
+  color: #00ffae;
+  box-shadow: 3px 3px 10px #00ffae;
+}
+section .fas {
+  transition: transform 0.6s;
 }/*# sourceMappingURL=style.css.map */

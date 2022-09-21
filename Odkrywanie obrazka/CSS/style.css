@@ -1,0 +1,32 @@
+body {
+  background-color: #333;
+}
+
+h1 {
+  color: whitesmoke;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  transition: 0.8s;
+}
+
+button:hover {
+  background-color: aquamarine;
+}/*# sourceMappingURL=style.css.map */
