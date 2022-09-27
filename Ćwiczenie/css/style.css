@@ -1,0 +1,60 @@
+body {
+  background-color: #333;
+}
+
+h1 {
+  color: whitesmoke;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  transition: 0.8s;
+}
+
+button:hover {
+  background-color: aquamarine;
+}/*# sourceMappingURL=style.css.map */px #00cfff;
+  font-size: 36px;
+  transition: color 0.3s, box-shadow 0.3s;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #00ffae;
+  box-shadow: 3px 3px 10px #00ffae;
+}/*# sourceMappingURL=style.css.map */ {
+  margin: 0 30px;
+  padding: 10px 30px;
+  background: none;
+  border-radius: 5px;
+  border: 2px solid #00cfff;
+  color: #00cfff;
+  box-shadow: 3px 3px 10px #00cfff;
+  font-size: 36px;
+  transition: color 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+section button:hover {
+  color: #00ffae;
+  box-shadow: 3px 3px 10px #00ffae;
+}
+section .fas {
+  transition: transform 0.6s;
+}/*# sourceMappingURL=style.css.map */
