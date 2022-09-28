@@ -65,3 +65,38 @@ Zadanie ze stringami
         const text5 = 'wyLoguj w konsoli tylko literę "L", która znajduje się w wyrazie "Wyloguj"'
         const text6 = 'pies zamień każde słowo pies, na słowo kot pies'
         const text7 = 'podziel, ten, string, od, przecinków'
+
+        // const newText1 = text1.toUpperCase()
+        // console.log(newText1);
+
+        console.log(text1.toUpperCase());
+
+        // const newText2 = text2.toLowerCase()
+        // console.log(newText2);
+
+        console.log(text2.toLowerCase());
+
+        // const newText3 = text3.slice(6)
+        // console.log(newText3);
+
+        console.log(text3.slice(6));
+
+        // const newText4 = text4.includes('czy')
+        // console.log(newText4);
+
+        console.log(text4.includes('czy'));
+
+        // const newText5 = text5.charAt(2)
+        // console.log(newText5);
+
+        console.log(text5.charAt(2));
+
+        // const newText6 = text6.replaceAll('pies', 'kot')
+        // console.log(newText6.replace());
+
+        console.log(text6.replaceAll('pies', 'kot'));
+
+        // const newText7 = text7.split(',')
+        // console.log(newText7);
+
+        console.log(text7.split(','));
