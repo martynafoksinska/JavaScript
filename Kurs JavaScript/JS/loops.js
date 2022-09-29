@@ -1,70 +1,70 @@
-// const animals = ['🐶', '🦁', '🐭', '🐱', '🦊', '🐮']
+const animals = ['🐶', '🦁', '🐭', '🐱', '🦊', '🐮']
 
-// for (let i = 0; i < animals.length; i++) {
-//     console.log(animals[i])
-// }
+for (let i = 0; i < animals.length; i++) {
+    console.log(animals[i])
+}
 
-// // zadanie stwórz tablicę z kolorami
+// zadanie stwórz tablicę z kolorami
 
-// const colors = ['🟢', '🔵', '🔴', '🟣', '🟡']
+const colors = ['🟢', '🔵', '🔴', '🟣', '🟡']
 
-// for (let i = 0; i < colors.length; i++) {
-//     console.log(colors[i])
-// }
+for (let i = 0; i < colors.length; i++) {
+    console.log(colors[i])
+}
 
-// // pętla while
+// pętla while
 
-// let i = 0
+let i = 0
 
-// while (i < 5) {
-//     console.log(i)
-//     i++
-// }
+while (i < 5) {
+    console.log(i)
+    i++
+}
 
 // pętla do ... while
 
-// do {
-//     i++
-//     console.log(i)
-// } while (i < 4)
+do {
+    i++
+    console.log(i)
+} while (i < 4)
 
 // pętla for of
 
-// const numbers = [1, 2, 3, 4, 5]
+const numberz = [1, 2, 3, 4, 5]
 
-// // for (let i = 0; i < numbers.length; i++) {
-// //     console.log(numbers[i] * 2)
-// // }
+for (let i = 0; i < numberz.length; i++) {
+    console.log(numberz[i] * 2)
+}
 
-// for (const number of numbers) {
-// 	console.log(number * 2)
-// }
+for (const number of numberz) {
+	console.log(number * 2)
+}
 
 // zadanie pętla FOR
 
-// const cityNames = ['Gdańsk', 'Warszawa', 'Kraków']
+const cityNames = ['Gdańsk', 'Warszawa', 'Kraków']
 
-// for (let i = 0; i < cityNames.length; i++) {
-// 	console.log('To miasto nazywa się: ' + cityNames[i])
-// }
+for (let i = 0; i < cityNames.length; i++) {
+	console.log('To miasto nazywa się: ' + cityNames[i])
+}
 
 // zadanie z pętli while
 
-// let x = 0
+let X = 0
 
-// while (x < 10) {
-// 	x = x + 2
-// 	console.log(x)
-// }
+while (X < 10) {
+	X = X + 2
+	console.log(X)
+}
 
 // zadanie z pętli do ... while
 
-// let x = 20
+let x = 20
 
-// do {
-// 	x = x - 3
-// } while (x > 0)
-// console.log(x)
+do {
+	x = x - 3
+} while (x > 0)
+console.log(x)
 
 // zadanie z pętlą for of
 
