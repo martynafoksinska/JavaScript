@@ -1,1 +1,4 @@
-Zadania z JavaScript z kursu [2022] Kurs Tworzenia Stron WWW cz. II - SASS, JS, Bootstrap - Mateusz Maj
+# KursJavaScript
+
+Projekty i ćwiczenia z kursu "JavaScript - Jedyny Kurs, Którego Potrzebujesz!".
+Kurs dostępny na www.MMCSchool.pl 
