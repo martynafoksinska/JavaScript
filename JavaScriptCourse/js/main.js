@@ -91,14 +91,145 @@ console.log('-----------------------------')
 // Not divisible by 3 or 5 = input
 // Not a number = "Not a number"
 
-const output = fizzBuzz(false)
+const output = fizzBuzz(15)
 console.log(output)
 
 function fizzBuzz(input) {
-	if (typeof input !== 'number') return NaN;
-	if ((input % 3 === 0) && (input % 5 === 0)) return 'FizzBuzz'
+	if (typeof input !== 'number') return NaN
+	if (input % 3 === 0 && input % 5 === 0) return 'FizzBuzz'
 	else if (input % 3 === 0) return 'Fizz'
 	else if (input % 5 === 0) return 'Buzz'
 
 	return input
+}
+
+console.log('-----------------------------')
+
+// Speed limit = 70
+// 5 --> 1 point
+// math.floor(1.3)
+// 12 points --> suspended
+
+checkSpeed(129)
+
+function checkSpeed(speed) {
+	const speedLimit = 70
+	const kmPerPoint = 5
+
+	if (speed < speedLimit + kmPerPoint) console.log('ok')
+	else {
+		const points = Math.floor((speed - speedLimit) / kmPerPoint)
+		if (points >= 12) console.log('License suspended')
+		else console.log('Points', points)
+	}
+}
+
+console.log('-----------------------------')
+
+// EVEN ODD NUMBERS
+
+showNumbers(10)
+
+function showNumbers(limit) {
+	for (let i = 0; i <= limit; i++) {
+		if (i % 2 !== 0) {
+			console.log(`${i} "ODD"`)
+		} else {
+			console.log(`${i} "EVEN"`)
+		}
+	}
+}
+
+console.log('-----------------------------')
+
+const array = [0, null, undefined, '', 1, 2, 3]
+
+console.log(countTruthy(array))
+
+function countTruthy(array) {
+	let count = 0
+	for (let value of array) if (value) count++
+	return count
+}
+
+console.log('-----------------------------')
+
+const movie = {
+	title: 'a',
+	releaseYear: 2018,
+	rating: 4.5,
+	director: 'b',
+}
+
+showProperties(movie)
+
+function showProperties(obj) {
+	for (let key in obj) {
+		if (typeof obj[key] === 'string') console.log(key, obj[key])
+	}
+}
+
+console.log('-----------------------------')
+
+console.log(sum(5))
+
+function sum(limit2) {
+	let sum = 0
+
+	for (let i = 0; i <= limit2; i++) {
+		if (i % 3 === 0) {
+			sum += i
+		}
+		if (i % 5 === 0) {
+			sum += i
+		}
+	}
+
+	return sum
+}
+
+console.log('-----------------------------')
+
+
+// 0-59: F
+// 60-69: D
+// 70-79: C
+// 80-89: B
+// 90-100: A
+
+const marks = [80, 80, 55];
+
+function calculateGrade(marks)  {
+
+	   const avg = calculateAvg(marks);
+
+if (avg < 60) return 'E';
+if (avg < 70) return 'D';
+if (avg < 80) return 'C';
+if (avg < 90) return 'B';
+return 'A';
+ 
+}
+ 
+function calculateAvg(array){
+	let sum = 0;
+	for (let value of array)
+	sum += value;
+	return sum/array.length;
+ 
+}
+
+console.log(calculateGrade(marks));
+
+console.log('-----------------------------')
+
+showStars(9);
+
+function showStars(rows) {
+    let row = "";
+    for (let i = 1; i <= rows; i++) {
+        row += "*"
+        console.log(row);
+    }
+    return row;
 }
